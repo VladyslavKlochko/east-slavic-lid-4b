@@ -18,7 +18,7 @@ This repository evaluates three 4-bit quantised (`Q4_K_M`) local language models
 
 - `run_east_slavic_benchmark.py` — evaluation script containing the 15 parallel sentences (`U1`–`U5`, `B1`–`B5`, `R1`–`R5`), prompt template, and `llama-cli` runner (`--temp 0 -s 42 -c 8192 -n 4096`).
 - `results/final_clean_logs_4096.txt` — complete raw outputs and response times for all 60 runs.
-- `paper/` — Typst source (`main.typ`), BibTeX bibliography (`references.bib`), and compiled PDF (`east-slavic-lid-4b.pdf`).
+- `research/` — Typst source (`main.typ`), BibTeX bibliography (`references.bib`), and compiled PDF (`east-slavic-lid-4b.pdf`).
 
 ## Reproducing the Runs
 
